@@ -1,0 +1,8 @@
+Facture pour la réservation ID: 12
+Client: Admin
+Destination: Paris
+Type de Billet: VIP
+Nombre de Places: 3
+Date de Voyage: 2025-05-14
+Montant: 899.97 EUR
+Généré le: 2025-05-01 19:51:43

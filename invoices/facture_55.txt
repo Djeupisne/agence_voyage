@@ -1,0 +1,8 @@
+Facture pour la réservation ID: 55
+Client: noumatekpo
+Destination: New York
+Type de Billet: Bussness
+Nombre de Places: 1
+Date de Voyage: 2025-05-31
+Montant: 2006.52 EUR
+Généré le: 2025-05-06 08:12:37

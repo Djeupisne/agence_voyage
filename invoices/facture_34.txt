@@ -1,0 +1,8 @@
+Facture pour la réservation ID: 34
+Client: DJEUPISNE
+Destination: Londres
+Type de Billet: Premium
+Nombre de Places: 3
+Date de Voyage: 2025-05-15
+Montant: 27000.45 EUR
+Généré le: 2025-05-06 08:07:16

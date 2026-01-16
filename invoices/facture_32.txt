@@ -1,0 +1,8 @@
+Facture pour la réservation ID: 32
+Client: DJEUPISNE
+Destination: Barcelone
+Type de Billet: VIP
+Nombre de Places: 4
+Date de Voyage: 2025-05-06
+Montant: 100003.8 EUR
+Généré le: 2025-05-05 01:43:12

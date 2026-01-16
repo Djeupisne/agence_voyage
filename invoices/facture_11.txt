@@ -1,0 +1,8 @@
+Facture pour la réservation ID: 11
+Client: Admin
+Destination: Paris
+Type de Billet: Premium
+Nombre de Places: 1
+Date de Voyage: 2025-06-05
+Montant: 299.99 EUR
+Généré le: 2025-05-02 20:28:15

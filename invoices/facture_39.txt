@@ -1,0 +1,8 @@
+Facture pour la réservation ID: 39
+Client: DJEUPISNE
+Destination: New York
+Type de Billet: Standard
+Nombre de Places: 1
+Date de Voyage: 2025-05-16
+Montant: 2006.52 EUR
+Généré le: 2025-05-05 00:05:37

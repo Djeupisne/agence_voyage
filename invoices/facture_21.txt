@@ -1,0 +1,8 @@
+Facture pour la réservation ID: 21
+Client: Daomi
+Destination: Sydney
+Type de Billet: Premium
+Nombre de Places: 2
+Date de Voyage: 2025-06-06
+Montant: 1971.98 EUR
+Généré le: 2025-05-02 23:49:35

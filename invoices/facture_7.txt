@@ -1,0 +1,8 @@
+Facture pour la réservation ID: 7
+Client: Admin
+Destination: Paris
+Type de Billet: Standard
+Nombre de Places: 2
+Date de Voyage: 2025-05-03
+Montant: 599.98 EUR
+Généré le: 2025-05-03 02:35:55

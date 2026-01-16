@@ -1,0 +1,2750 @@
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3a095a4bd2dsm1363901f8f.54 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[1] CLIENT -> SERVER: MAIL FROM:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-3a095a4bd2dsm1363901f8f.54 - gsmtp
+
+[1] CLIENT -> SERVER: RCPT TO:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-3a095a4bd2dsm1363901f8f.54 - gsmtp
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-3a095a4bd2dsm1363901f8f.54 - gsmtp
+
+[1] CLIENT -> SERVER: Date: Thu, 1 May 2025 17:34:02 +0000
+
+[1] CLIENT -> SERVER: To: oualoumidjeupisne@gmail.com
+
+[1] CLIENT -> SERVER: From: Agence de Voyage <oualoumidjeupisne@gmail.com>
+
+[1] CLIENT -> SERVER: Subject: Liste des utilisateurs - Agence de Voyage
+
+[1] CLIENT -> SERVER: Message-ID: <VN1nQdX68Qiqy8ELRR6wJWIdeAOr7fCTbwaRQQP4sfA@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_VN1nQdX68Qiqy8ELRR6wJWIdeAOr7fCTbwaRQQP4sfA"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_VN1nQdX68Qiqy8ELRR6wJWIdeAOr7fCTbwaRQQP4sfA
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Liste des utilisateurs de l'Agence de VoyageIDNomEmailRôle1Adminadmin@agence.comadmin2Clientclient@agence.comclient3DJEUPISNEoualoumidjeupisne@gmail.comclient
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_VN1nQdX68Qiqy8ELRR6wJWIdeAOr7fCTbwaRQQP4sfA
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: <h2>Liste des utilisateurs de l'Agence de Voyage</h2><table border='1' cellpadding='5'><tr><th>ID</th><th>Nom</th><th>Email</th><th>Rôle</th></tr><tr><td>1</td><td>Admin</td><td>admin@agence.com</td><td>admin</td></tr><tr><td>2</td><td>Client</td><td>client@agence.com</td><td>client</td></tr><tr><td>3</td><td>DJEUPISNE</td><td>oualoumidjeupisne@gmail.com</td><td>client</td></tr></table>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_VN1nQdX68Qiqy8ELRR6wJWIdeAOr7fCTbwaRQQP4sfA--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 OK  1746120841 ffacd0b85a97d-3a095a4bd2dsm1363901f8f.54 - gsmtp
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-3a095a4bd2dsm1363901f8f.54 - gsmtp
+
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-441b2af4546sm65403155e9.22 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[1] CLIENT -> SERVER: MAIL FROM:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-441b2af4546sm65403155e9.22 - gsmtp
+
+[1] CLIENT -> SERVER: RCPT TO:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-441b2af4546sm65403155e9.22 - gsmtp
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-441b2af4546sm65403155e9.22 - gsmtp
+
+[1] CLIENT -> SERVER: Date: Thu, 1 May 2025 17:34:20 +0000
+
+[1] CLIENT -> SERVER: To: oualoumidjeupisne@gmail.com
+
+[1] CLIENT -> SERVER: From: Agence de Voyage <oualoumidjeupisne@gmail.com>
+
+[1] CLIENT -> SERVER: Subject: Liste des utilisateurs - Agence de Voyage
+
+[1] CLIENT -> SERVER: Message-ID: <ZF1Jc2x7O9HVoZyfoVwx10BXju804AbAk3PQotGL4A@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_ZF1Jc2x7O9HVoZyfoVwx10BXju804AbAk3PQotGL4A"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_ZF1Jc2x7O9HVoZyfoVwx10BXju804AbAk3PQotGL4A
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Liste des utilisateurs de l'Agence de VoyageIDNomEmailRôle1Adminadmin@agence.comadmin2Clientclient@agence.comclient3DJEUPISNEoualoumidjeupisne@gmail.comclient
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_ZF1Jc2x7O9HVoZyfoVwx10BXju804AbAk3PQotGL4A
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: <h2>Liste des utilisateurs de l'Agence de Voyage</h2><table border='1' cellpadding='5'><tr><th>ID</th><th>Nom</th><th>Email</th><th>Rôle</th></tr><tr><td>1</td><td>Admin</td><td>admin@agence.com</td><td>admin</td></tr><tr><td>2</td><td>Client</td><td>client@agence.com</td><td>client</td></tr><tr><td>3</td><td>DJEUPISNE</td><td>oualoumidjeupisne@gmail.com</td><td>client</td></tr></table>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_ZF1Jc2x7O9HVoZyfoVwx10BXju804AbAk3PQotGL4A--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 OK  1746120858 5b1f17b1804b1-441b2af4546sm65403155e9.22 - gsmtp
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-441b2af4546sm65403155e9.22 - gsmtp
+
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3a095a4bd65sm1338088f8f.48 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[1] CLIENT -> SERVER: MAIL FROM:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-3a095a4bd65sm1338088f8f.48 - gsmtp
+
+[1] CLIENT -> SERVER: RCPT TO:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-3a095a4bd65sm1338088f8f.48 - gsmtp
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-3a095a4bd65sm1338088f8f.48 - gsmtp
+
+[1] CLIENT -> SERVER: Date: Thu, 1 May 2025 17:40:17 +0000
+
+[1] CLIENT -> SERVER: To: oualoumidjeupisne@gmail.com
+
+[1] CLIENT -> SERVER: From: Agence de Voyage <oualoumidjeupisne@gmail.com>
+
+[1] CLIENT -> SERVER: Subject: Liste des utilisateurs - Agence de Voyage
+
+[1] CLIENT -> SERVER: Message-ID: <ulm6GfZA2FN5NOWHj3kJsgNxISbOERdk16g8UM@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_ulm6GfZA2FN5NOWHj3kJsgNxISbOERdk16g8UM"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_ulm6GfZA2FN5NOWHj3kJsgNxISbOERdk16g8UM
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Liste des utilisateurs de l'Agence de VoyageIDNomEmailRôle1Adminadmin@agence.comadmin2Clientclient@agence.comclient3DJEUPISNEoualoumidjeupisne@gmail.comclient
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_ulm6GfZA2FN5NOWHj3kJsgNxISbOERdk16g8UM
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: <h2>Liste des utilisateurs de l'Agence de Voyage</h2><table border='1' cellpadding='5'><tr><th>ID</th><th>Nom</th><th>Email</th><th>Rôle</th></tr><tr><td>1</td><td>Admin</td><td>admin@agence.com</td><td>admin</td></tr><tr><td>2</td><td>Client</td><td>client@agence.com</td><td>client</td></tr><tr><td>3</td><td>DJEUPISNE</td><td>oualoumidjeupisne@gmail.com</td><td>client</td></tr></table>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_ulm6GfZA2FN5NOWHj3kJsgNxISbOERdk16g8UM--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 OK  1746121214 ffacd0b85a97d-3a095a4bd65sm1338088f8f.48 - gsmtp
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-3a095a4bd65sm1338088f8f.48 - gsmtp
+
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3a095a3e084sm1405392f8f.19 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[1] CLIENT -> SERVER: MAIL FROM:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-3a095a3e084sm1405392f8f.19 - gsmtp
+
+[1] CLIENT -> SERVER: RCPT TO:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-3a095a3e084sm1405392f8f.19 - gsmtp
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-3a095a3e084sm1405392f8f.19 - gsmtp
+
+[1] CLIENT -> SERVER: Date: Thu, 1 May 2025 17:54:27 +0000
+
+[1] CLIENT -> SERVER: To: oualoumidjeupisne@gmail.com
+
+[1] CLIENT -> SERVER: From: Agence de Voyage <oualoumidjeupisne@gmail.com>
+
+[1] CLIENT -> SERVER: Subject: Liste des utilisateurs - Agence de Voyage
+
+[1] CLIENT -> SERVER: Message-ID: <3ebjUggOv9ko9RzfWyaFxPPAUdZXK7EA7qxnpIlfIU@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_3ebjUggOv9ko9RzfWyaFxPPAUdZXK7EA7qxnpIlfIU"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_3ebjUggOv9ko9RzfWyaFxPPAUdZXK7EA7qxnpIlfIU
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Liste des utilisateurs de l'Agence de VoyageIDNomEmailRôle1Adminadmin@agence.comadmin2Clientclient@agence.comclient3DJEUPISNEoualoumidjeupisne@gmail.comclient
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_3ebjUggOv9ko9RzfWyaFxPPAUdZXK7EA7qxnpIlfIU
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: <h2>Liste des utilisateurs de l'Agence de Voyage</h2><table border='1' cellpadding='5'><tr><th>ID</th><th>Nom</th><th>Email</th><th>Rôle</th></tr><tr><td>1</td><td>Admin</td><td>admin@agence.com</td><td>admin</td></tr><tr><td>2</td><td>Client</td><td>client@agence.com</td><td>client</td></tr><tr><td>3</td><td>DJEUPISNE</td><td>oualoumidjeupisne@gmail.com</td><td>client</td></tr></table>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_3ebjUggOv9ko9RzfWyaFxPPAUdZXK7EA7qxnpIlfIU--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 OK  1746122080 ffacd0b85a97d-3a095a3e084sm1405392f8f.19 - gsmtp
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-3a095a3e084sm1405392f8f.19 - gsmtp
+
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-441b8a3156asm23753765e9.38 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[1] CLIENT -> SERVER: MAIL FROM:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-441b8a3156asm23753765e9.38 - gsmtp
+
+[1] CLIENT -> SERVER: RCPT TO:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-441b8a3156asm23753765e9.38 - gsmtp
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-441b8a3156asm23753765e9.38 - gsmtp
+
+[1] CLIENT -> SERVER: Date: Thu, 1 May 2025 21:43:39 +0000
+
+[1] CLIENT -> SERVER: To: oualoumidjeupisne@gmail.com
+
+[1] CLIENT -> SERVER: From: Agence de Voyage <oualoumidjeupisne@gmail.com>
+
+[1] CLIENT -> SERVER: Subject: Liste des utilisateurs - Agence de Voyage
+
+[1] CLIENT -> SERVER: Message-ID: <DHuVgwUBkCiQSFehqqnbvjzbu5RwVrKcQ0Y3HVocDA@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_DHuVgwUBkCiQSFehqqnbvjzbu5RwVrKcQ0Y3HVocDA"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_DHuVgwUBkCiQSFehqqnbvjzbu5RwVrKcQ0Y3HVocDA
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Liste des utilisateurs de l'Agence de VoyageIDNomEmailRôle1Adminadmin@agence.comadmin3DJEUPISNEoualoumidjeupisne@gmail.comclient
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_DHuVgwUBkCiQSFehqqnbvjzbu5RwVrKcQ0Y3HVocDA
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: <h2>Liste des utilisateurs de l'Agence de Voyage</h2><table border='1' cellpadding='5'><tr><th>ID</th><th>Nom</th><th>Email</th><th>Rôle</th></tr><tr><td>1</td><td>Admin</td><td>admin@agence.com</td><td>admin</td></tr><tr><td>3</td><td>DJEUPISNE</td><td>oualoumidjeupisne@gmail.com</td><td>client</td></tr></table>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_DHuVgwUBkCiQSFehqqnbvjzbu5RwVrKcQ0Y3HVocDA--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 OK  1746135817 5b1f17b1804b1-441b8a3156asm23753765e9.38 - gsmtp
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-441b8a3156asm23753765e9.38 - gsmtp
+
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3a099ae0bf6sm331536f8f.18 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[1] CLIENT -> SERVER: MAIL FROM:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-3a099ae0bf6sm331536f8f.18 - gsmtp
+
+[1] CLIENT -> SERVER: RCPT TO:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-3a099ae0bf6sm331536f8f.18 - gsmtp
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-3a099ae0bf6sm331536f8f.18 - gsmtp
+
+[1] CLIENT -> SERVER: Date: Thu, 1 May 2025 21:53:18 +0000
+
+[1] CLIENT -> SERVER: To: oualoumidjeupisne@gmail.com
+
+[1] CLIENT -> SERVER: From: Agence de Voyage <oualoumidjeupisne@gmail.com>
+
+[1] CLIENT -> SERVER: Subject: Liste des utilisateurs - Agence de Voyage
+
+[1] CLIENT -> SERVER: Message-ID: <WqLnEV7iv3vlFV6L2EaUJKZX5yOThAv1afdPjdQQe0@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_WqLnEV7iv3vlFV6L2EaUJKZX5yOThAv1afdPjdQQe0"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_WqLnEV7iv3vlFV6L2EaUJKZX5yOThAv1afdPjdQQe0
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Liste des utilisateurs de l'Agence de VoyageIDNomEmailRôle1Adminadmin@agence.comadmin3DJEUPISNEoualoumidjeupisne@gmail.comclient
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_WqLnEV7iv3vlFV6L2EaUJKZX5yOThAv1afdPjdQQe0
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: <h2>Liste des utilisateurs de l'Agence de Voyage</h2><table border='1' cellpadding='5'><tr><th>ID</th><th>Nom</th><th>Email</th><th>Rôle</th></tr><tr><td>1</td><td>Admin</td><td>admin@agence.com</td><td>admin</td></tr><tr><td>3</td><td>DJEUPISNE</td><td>oualoumidjeupisne@gmail.com</td><td>client</td></tr></table>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_WqLnEV7iv3vlFV6L2EaUJKZX5yOThAv1afdPjdQQe0--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 OK  1746136395 ffacd0b85a97d-3a099ae0bf6sm331536f8f.18 - gsmtp
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-3a099ae0bf6sm331536f8f.18 - gsmtp
+
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-441b2aecc20sm133912275e9.13 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[1] CLIENT -> SERVER: MAIL FROM:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-441b2aecc20sm133912275e9.13 - gsmtp
+
+[1] CLIENT -> SERVER: RCPT TO:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-441b2aecc20sm133912275e9.13 - gsmtp
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-441b2aecc20sm133912275e9.13 - gsmtp
+
+[1] CLIENT -> SERVER: Date: Sun, 4 May 2025 01:13:13 +0000
+
+[1] CLIENT -> SERVER: To: oualoumidjeupisne@gmail.com
+
+[1] CLIENT -> SERVER: From: Agence de Voyage <oualoumidjeupisne@gmail.com>
+
+[1] CLIENT -> SERVER: Subject: Liste des utilisateurs - Agence de Voyage
+
+[1] CLIENT -> SERVER: Message-ID: <OIdjSkjxxUGRuTudl1omKK7USeisAEAXuD3lH5wI@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_OIdjSkjxxUGRuTudl1omKK7USeisAEAXuD3lH5wI"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_OIdjSkjxxUGRuTudl1omKK7USeisAEAXuD3lH5wI
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Liste des utilisateurs de l'Agence de VoyageIDNomEmailRôle1Adminadmin@agence.comadmin3DJEUPISNEoualoumidjeupisne@gmail.comclient4Daomibernard@gmail.comclient5Toumbaclient@agence.com
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_OIdjSkjxxUGRuTudl1omKK7USeisAEAXuD3lH5wI
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: <h2>Liste des utilisateurs de l'Agence de Voyage</h2><table border='1' cellpadding='5'><tr><th>ID</th><th>Nom</th><th>Email</th><th>Rôle</th></tr><tr><td>1</td><td>Admin</td><td>admin@agence.com</td><td>admin</td></tr><tr><td>3</td><td>DJEUPISNE</td><td>oualoumidjeupisne@gmail.com</td><td>client</td></tr><tr><td>4</td><td>Daomi</td><td>bernard@gmail.com</td><td>client</td></tr><tr><td>5</td><td>Toumba</td><td>client@agence.com</td><td></td></tr></table>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_OIdjSkjxxUGRuTudl1omKK7USeisAEAXuD3lH5wI--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 OK  1746321188 5b1f17b1804b1-441b2aecc20sm133912275e9.13 - gsmtp
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-441b2aecc20sm133912275e9.13 - gsmtp
+
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a640c23a62f3a-ad1894c0300sm408115366b.111 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[1] CLIENT -> SERVER: MAIL FROM:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 OK a640c23a62f3a-ad1894c0300sm408115366b.111 - gsmtp
+
+[1] CLIENT -> SERVER: RCPT TO:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.5 OK a640c23a62f3a-ad1894c0300sm408115366b.111 - gsmtp
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead a640c23a62f3a-ad1894c0300sm408115366b.111 - gsmtp
+
+[1] CLIENT -> SERVER: Date: Mon, 5 May 2025 01:53:38 +0000
+
+[1] CLIENT -> SERVER: To: oualoumidjeupisne@gmail.com
+
+[1] CLIENT -> SERVER: From: Agence de Voyage <oualoumidjeupisne@gmail.com>
+
+[1] CLIENT -> SERVER: Subject: Liste des utilisateurs - Agence de Voyage
+
+[1] CLIENT -> SERVER: Message-ID: <DFCrtWQChlCp5JvpFjOOD7ukR0p8nodon3yENg@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_DFCrtWQChlCp5JvpFjOOD7ukR0p8nodon3yENg"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_DFCrtWQChlCp5JvpFjOOD7ukR0p8nodon3yENg
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Liste des utilisateurs de l'Agence de VoyageIDNomEmailRôle1Adminadmin@agence.comadmin3DJEUPISNEoualoumidjeupisne@gmail.comclient4Daomibernard@gmail.comclient5Toumbaclient@agence.com
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_DFCrtWQChlCp5JvpFjOOD7ukR0p8nodon3yENg
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: <h2>Liste des utilisateurs de l'Agence de Voyage</h2><table border='1' cellpadding='5'><tr><th>ID</th><th>Nom</th><th>Email</th><th>Rôle</th></tr><tr><td>1</td><td>Admin</td><td>admin@agence.com</td><td>admin</td></tr><tr><td>3</td><td>DJEUPISNE</td><td>oualoumidjeupisne@gmail.com</td><td>client</td></tr><tr><td>4</td><td>Daomi</td><td>bernard@gmail.com</td><td>client</td></tr><tr><td>5</td><td>Toumba</td><td>client@agence.com</td><td></td></tr></table>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_DFCrtWQChlCp5JvpFjOOD7ukR0p8nodon3yENg--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 OK  1746410012 a640c23a62f3a-ad1894c0300sm408115366b.111 - gsmtp
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection a640c23a62f3a-ad1894c0300sm408115366b.111 - gsmtp
+
+[1] SMTP ERROR: Failed to connect to server: php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: No such host is known.  (0)
+[2] SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-441bc83d471sm123541445e9.26 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[1] CLIENT -> SERVER: MAIL FROM:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-441bc83d471sm123541445e9.26 - gsmtp
+
+[1] CLIENT -> SERVER: RCPT TO:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-441bc83d471sm123541445e9.26 - gsmtp
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-441bc83d471sm123541445e9.26 - gsmtp
+
+[1] CLIENT -> SERVER: Date: Mon, 5 May 2025 22:34:42 +0000
+
+[1] CLIENT -> SERVER: To: oualoumidjeupisne@gmail.com
+
+[1] CLIENT -> SERVER: From: Agence de Voyage <oualoumidjeupisne@gmail.com>
+
+[1] CLIENT -> SERVER: Subject: Liste des utilisateurs - Agence de Voyage
+
+[1] CLIENT -> SERVER: Message-ID: <MZ6WFSlsZQIa3LHQHj1HmoPBm2KBuPT0zyATiYnUG1o@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_MZ6WFSlsZQIa3LHQHj1HmoPBm2KBuPT0zyATiYnUG1o"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_MZ6WFSlsZQIa3LHQHj1HmoPBm2KBuPT0zyATiYnUG1o
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Liste des utilisateurs de l'Agence de VoyageIDNomEmailRôle1Adminadmin@agence.comadmin3DJEUPISNEoualoumidjeupisne@gmail.comclient4Daomibernard@gmail.comclient5Toumbaclient@agence.com
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_MZ6WFSlsZQIa3LHQHj1HmoPBm2KBuPT0zyATiYnUG1o
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: <h2>Liste des utilisateurs de l'Agence de Voyage</h2><table border='1' cellpadding='5'><tr><th>ID</th><th>Nom</th><th>Email</th><th>Rôle</th></tr><tr><td>1</td><td>Admin</td><td>admin@agence.com</td><td>admin</td></tr><tr><td>3</td><td>DJEUPISNE</td><td>oualoumidjeupisne@gmail.com</td><td>client</td></tr><tr><td>4</td><td>Daomi</td><td>bernard@gmail.com</td><td>client</td></tr><tr><td>5</td><td>Toumba</td><td>client@agence.com</td><td></td></tr></table>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_MZ6WFSlsZQIa3LHQHj1HmoPBm2KBuPT0zyATiYnUG1o--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 OK  1746484474 5b1f17b1804b1-441bc83d471sm123541445e9.26 - gsmtp
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-441bc83d471sm123541445e9.26 - gsmtp
+
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-441b2af32a0sm195869645e9.23 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[1] CLIENT -> SERVER: MAIL FROM:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-441b2af32a0sm195869645e9.23 - gsmtp
+
+[1] CLIENT -> SERVER: RCPT TO:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-441b2af32a0sm195869645e9.23 - gsmtp
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-441b2af32a0sm195869645e9.23 - gsmtp
+
+[1] CLIENT -> SERVER: Date: Mon, 5 May 2025 22:45:28 +0000
+
+[1] CLIENT -> SERVER: To: oualoumidjeupisne@gmail.com
+
+[1] CLIENT -> SERVER: From: Agence de Voyage <oualoumidjeupisne@gmail.com>
+
+[1] CLIENT -> SERVER: Subject: Liste des utilisateurs - Agence de Voyage
+
+[1] CLIENT -> SERVER: Message-ID: <fZcCpHRyGOOKniWP6j9Ko2YFs9Uezx3EHdjAxwNY@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_fZcCpHRyGOOKniWP6j9Ko2YFs9Uezx3EHdjAxwNY"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_fZcCpHRyGOOKniWP6j9Ko2YFs9Uezx3EHdjAxwNY
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Liste des utilisateurs de l'Agence de VoyageIDNomEmailRôle1Adminadmin@agence.comadmin3DJEUPISNEoualoumidjeupisne@gmail.comclient4Daomibernard@gmail.comclient5Toumbaclient@agence.com
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_fZcCpHRyGOOKniWP6j9Ko2YFs9Uezx3EHdjAxwNY
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: <h2>Liste des utilisateurs de l'Agence de Voyage</h2><table border='1' cellpadding='5'><tr><th>ID</th><th>Nom</th><th>Email</th><th>Rôle</th></tr><tr><td>1</td><td>Admin</td><td>admin@agence.com</td><td>admin</td></tr><tr><td>3</td><td>DJEUPISNE</td><td>oualoumidjeupisne@gmail.com</td><td>client</td></tr><tr><td>4</td><td>Daomi</td><td>bernard@gmail.com</td><td>client</td></tr><tr><td>5</td><td>Toumba</td><td>client@agence.com</td><td></td></tr></table>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_fZcCpHRyGOOKniWP6j9Ko2YFs9Uezx3EHdjAxwNY--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 OK  1746485121 5b1f17b1804b1-441b2af32a0sm195869645e9.23 - gsmtp
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-441b2af32a0sm195869645e9.23 - gsmtp
+
+[1] SMTP ERROR: Failed to connect to server: php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: No such host is known.  (0)
+[2] SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-441d15dd9c6sm610895e9.1 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[1] CLIENT -> SERVER: MAIL FROM:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-441d15dd9c6sm610895e9.1 - gsmtp
+
+[1] CLIENT -> SERVER: RCPT TO:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-441d15dd9c6sm610895e9.1 - gsmtp
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-441d15dd9c6sm610895e9.1 - gsmtp
+
+[1] CLIENT -> SERVER: Date: Mon, 5 May 2025 22:49:44 +0000
+
+[1] CLIENT -> SERVER: To: oualoumidjeupisne@gmail.com
+
+[1] CLIENT -> SERVER: From: Agence de Voyage <oualoumidjeupisne@gmail.com>
+
+[1] CLIENT -> SERVER: Subject: Liste des utilisateurs - Agence de Voyage
+
+[1] CLIENT -> SERVER: Message-ID: <R7zCvouTy35AHlPKFYNDOPHdLi3gtH27AeecqQ30y74@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_R7zCvouTy35AHlPKFYNDOPHdLi3gtH27AeecqQ30y74"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_R7zCvouTy35AHlPKFYNDOPHdLi3gtH27AeecqQ30y74
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Liste des utilisateurs de l'Agence de VoyageIDNomEmailRôle1Adminadmin@agence.comadmin3DJEUPISNEoualoumidjeupisne@gmail.comclient4Daomibernard@gmail.comclient5Toumbaclient@agence.com
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_R7zCvouTy35AHlPKFYNDOPHdLi3gtH27AeecqQ30y74
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: <h2>Liste des utilisateurs de l'Agence de Voyage</h2><table border='1' cellpadding='5'><tr><th>ID</th><th>Nom</th><th>Email</th><th>Rôle</th></tr><tr><td>1</td><td>Admin</td><td>admin@agence.com</td><td>admin</td></tr><tr><td>3</td><td>DJEUPISNE</td><td>oualoumidjeupisne@gmail.com</td><td>client</td></tr><tr><td>4</td><td>Daomi</td><td>bernard@gmail.com</td><td>client</td></tr><tr><td>5</td><td>Toumba</td><td>client@agence.com</td><td></td></tr></table>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_R7zCvouTy35AHlPKFYNDOPHdLi3gtH27AeecqQ30y74--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 OK  1746485376 5b1f17b1804b1-441d15dd9c6sm610895e9.1 - gsmtp
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-441d15dd9c6sm610895e9.1 - gsmtp
+
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-441b2b20c3fsm194876255e9.28 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[1] CLIENT -> SERVER: MAIL FROM:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-441b2b20c3fsm194876255e9.28 - gsmtp
+
+[1] CLIENT -> SERVER: RCPT TO:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-441b2b20c3fsm194876255e9.28 - gsmtp
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-441b2b20c3fsm194876255e9.28 - gsmtp
+
+[1] CLIENT -> SERVER: Date: Mon, 5 May 2025 22:50:54 +0000
+
+[1] CLIENT -> SERVER: To: oualoumidjeupisne@gmail.com
+
+[1] CLIENT -> SERVER: From: Agence de Voyage <oualoumidjeupisne@gmail.com>
+
+[1] CLIENT -> SERVER: Subject: Liste des utilisateurs - Agence de Voyage
+
+[1] CLIENT -> SERVER: Message-ID: <jaohf0OJY45gNlKVhV0W3TtcJ6FFHgRZQNp6MWqoLs@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_jaohf0OJY45gNlKVhV0W3TtcJ6FFHgRZQNp6MWqoLs"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_jaohf0OJY45gNlKVhV0W3TtcJ6FFHgRZQNp6MWqoLs
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Liste des utilisateurs de l'Agence de VoyageIDNomEmailRôle1Adminadmin@agence.comadmin3DJEUPISNEoualoumidjeupisne@gmail.comclient4Daomibernard@gmail.comclient5Toumbaclient@agence.com
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_jaohf0OJY45gNlKVhV0W3TtcJ6FFHgRZQNp6MWqoLs
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: <h2>Liste des utilisateurs de l'Agence de Voyage</h2><table border='1' cellpadding='5'><tr><th>ID</th><th>Nom</th><th>Email</th><th>Rôle</th></tr><tr><td>1</td><td>Admin</td><td>admin@agence.com</td><td>admin</td></tr><tr><td>3</td><td>DJEUPISNE</td><td>oualoumidjeupisne@gmail.com</td><td>client</td></tr><tr><td>4</td><td>Daomi</td><td>bernard@gmail.com</td><td>client</td></tr><tr><td>5</td><td>Toumba</td><td>client@agence.com</td><td></td></tr></table>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_jaohf0OJY45gNlKVhV0W3TtcJ6FFHgRZQNp6MWqoLs--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 OK  1746485446 5b1f17b1804b1-441b2b20c3fsm194876255e9.28 - gsmtp
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-441b2b20c3fsm194876255e9.28 - gsmtp
+
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-441b2b28045sm191088685e9.35 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[1] CLIENT -> SERVER: MAIL FROM:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-441b2b28045sm191088685e9.35 - gsmtp
+
+[1] CLIENT -> SERVER: RCPT TO:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-441b2b28045sm191088685e9.35 - gsmtp
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-441b2b28045sm191088685e9.35 - gsmtp
+
+[1] CLIENT -> SERVER: Date: Mon, 5 May 2025 22:51:32 +0000
+
+[1] CLIENT -> SERVER: To: oualoumidjeupisne@gmail.com
+
+[1] CLIENT -> SERVER: From: Agence de Voyage <oualoumidjeupisne@gmail.com>
+
+[1] CLIENT -> SERVER: Subject: Liste des utilisateurs - Agence de Voyage
+
+[1] CLIENT -> SERVER: Message-ID: <BNWmAeuotRX1UkRonTqC1MW8e2E2CgfilgQbmhFdRBw@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_BNWmAeuotRX1UkRonTqC1MW8e2E2CgfilgQbmhFdRBw"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_BNWmAeuotRX1UkRonTqC1MW8e2E2CgfilgQbmhFdRBw
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Liste des utilisateurs de l'Agence de VoyageIDNomEmailRôle1Adminadmin@agence.comadmin3DJEUPISNEoualoumidjeupisne@gmail.comclient4Daomibernard@gmail.comclient5Toumbaclient@agence.com
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_BNWmAeuotRX1UkRonTqC1MW8e2E2CgfilgQbmhFdRBw
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: <h2>Liste des utilisateurs de l'Agence de Voyage</h2><table border='1' cellpadding='5'><tr><th>ID</th><th>Nom</th><th>Email</th><th>Rôle</th></tr><tr><td>1</td><td>Admin</td><td>admin@agence.com</td><td>admin</td></tr><tr><td>3</td><td>DJEUPISNE</td><td>oualoumidjeupisne@gmail.com</td><td>client</td></tr><tr><td>4</td><td>Daomi</td><td>bernard@gmail.com</td><td>client</td></tr><tr><td>5</td><td>Toumba</td><td>client@agence.com</td><td></td></tr></table>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_BNWmAeuotRX1UkRonTqC1MW8e2E2CgfilgQbmhFdRBw--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 OK  1746485484 5b1f17b1804b1-441b2b28045sm191088685e9.35 - gsmtp
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-441b2b28045sm191088685e9.35 - gsmtp
+
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3a099b0fe92sm11850376f8f.68 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[1] CLIENT -> SERVER: MAIL FROM:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-3a099b0fe92sm11850376f8f.68 - gsmtp
+
+[1] CLIENT -> SERVER: RCPT TO:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-3a099b0fe92sm11850376f8f.68 - gsmtp
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-3a099b0fe92sm11850376f8f.68 - gsmtp
+
+[1] CLIENT -> SERVER: Date: Mon, 5 May 2025 23:01:13 +0000
+
+[1] CLIENT -> SERVER: To: oualoumidjeupisne@gmail.com
+
+[1] CLIENT -> SERVER: From: Agence de Voyage <oualoumidjeupisne@gmail.com>
+
+[1] CLIENT -> SERVER: Subject: Liste des utilisateurs - Agence de Voyage
+
+[1] CLIENT -> SERVER: Message-ID: <ujAdSQbFK6QUUdd2UOqVAoY0s8zAK9O0198QGLg4PQ@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_ujAdSQbFK6QUUdd2UOqVAoY0s8zAK9O0198QGLg4PQ"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_ujAdSQbFK6QUUdd2UOqVAoY0s8zAK9O0198QGLg4PQ
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Liste des utilisateurs de l'Agence de VoyageIDNomEmailRôle1Adminadmin@agence.comadmin3DJEUPISNEoualoumidjeupisne@gmail.comclient4Daomibernard@gmail.comclient5Toumbaclient@agence.com
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_ujAdSQbFK6QUUdd2UOqVAoY0s8zAK9O0198QGLg4PQ
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: <h2>Liste des utilisateurs de l'Agence de Voyage</h2><table border='1' cellpadding='5'><tr><th>ID</th><th>Nom</th><th>Email</th><th>Rôle</th></tr><tr><td>1</td><td>Admin</td><td>admin@agence.com</td><td>admin</td></tr><tr><td>3</td><td>DJEUPISNE</td><td>oualoumidjeupisne@gmail.com</td><td>client</td></tr><tr><td>4</td><td>Daomi</td><td>bernard@gmail.com</td><td>client</td></tr><tr><td>5</td><td>Toumba</td><td>client@agence.com</td><td></td></tr></table>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_ujAdSQbFK6QUUdd2UOqVAoY0s8zAK9O0198QGLg4PQ--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 OK  1746486065 ffacd0b85a97d-3a099b0fe92sm11850376f8f.68 - gsmtp
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-3a099b0fe92sm11850376f8f.68 - gsmtp
+
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-441b2aecc89sm192398005e9.9 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[1] CLIENT -> SERVER: MAIL FROM:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-441b2aecc89sm192398005e9.9 - gsmtp
+
+[1] CLIENT -> SERVER: RCPT TO:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-441b2aecc89sm192398005e9.9 - gsmtp
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-441b2aecc89sm192398005e9.9 - gsmtp
+
+[1] CLIENT -> SERVER: Date: Mon, 5 May 2025 23:03:37 +0000
+
+[1] CLIENT -> SERVER: To: oualoumidjeupisne@gmail.com
+
+[1] CLIENT -> SERVER: From: Agence de Voyage <oualoumidjeupisne@gmail.com>
+
+[1] CLIENT -> SERVER: Subject: Liste des utilisateurs - Agence de Voyage
+
+[1] CLIENT -> SERVER: Message-ID: <HVEAxyvfyzOoEVK7wSG20ZaYrrIoe9HOnIUCgMATA@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_HVEAxyvfyzOoEVK7wSG20ZaYrrIoe9HOnIUCgMATA"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_HVEAxyvfyzOoEVK7wSG20ZaYrrIoe9HOnIUCgMATA
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Liste des utilisateurs de l'Agence de VoyageIDNomEmailRôle1Adminadmin@agence.comadmin3DJEUPISNEoualoumidjeupisne@gmail.comclient4Daomibernard@gmail.comclient5Toumbaclient@agence.com
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_HVEAxyvfyzOoEVK7wSG20ZaYrrIoe9HOnIUCgMATA
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: <h2>Liste des utilisateurs de l'Agence de Voyage</h2><table border='1' cellpadding='5'><tr><th>ID</th><th>Nom</th><th>Email</th><th>Rôle</th></tr><tr><td>1</td><td>Admin</td><td>admin@agence.com</td><td>admin</td></tr><tr><td>3</td><td>DJEUPISNE</td><td>oualoumidjeupisne@gmail.com</td><td>client</td></tr><tr><td>4</td><td>Daomi</td><td>bernard@gmail.com</td><td>client</td></tr><tr><td>5</td><td>Toumba</td><td>client@agence.com</td><td></td></tr></table>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_HVEAxyvfyzOoEVK7wSG20ZaYrrIoe9HOnIUCgMATA--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 OK  1746486209 5b1f17b1804b1-441b2aecc89sm192398005e9.9 - gsmtp
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-441b2aecc89sm192398005e9.9 - gsmtp
+
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-441b8a286cfsm146060995e9.29 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[1] CLIENT -> SERVER: MAIL FROM:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-441b8a286cfsm146060995e9.29 - gsmtp
+
+[1] CLIENT -> SERVER: RCPT TO:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-441b8a286cfsm146060995e9.29 - gsmtp
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-441b8a286cfsm146060995e9.29 - gsmtp
+
+[1] CLIENT -> SERVER: Date: Mon, 5 May 2025 23:11:13 +0000
+
+[1] CLIENT -> SERVER: To: oualoumidjeupisne@gmail.com
+
+[1] CLIENT -> SERVER: From: Agence de Voyage <oualoumidjeupisne@gmail.com>
+
+[1] CLIENT -> SERVER: Subject: Liste des utilisateurs - Agence de Voyage
+
+[1] CLIENT -> SERVER: Message-ID: <9qe6aQa3aVMD8xDq6r0SOOnvZTIpNr0BfznUTN7k1j0@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_9qe6aQa3aVMD8xDq6r0SOOnvZTIpNr0BfznUTN7k1j0"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_9qe6aQa3aVMD8xDq6r0SOOnvZTIpNr0BfznUTN7k1j0
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Liste des utilisateurs de l'Agence de VoyageIDNomEmailRôle1Adminadmin@agence.comadmin3DJEUPISNEoualoumidjeupisne@gmail.comclient4Daomibernard@gmail.comclient5Toumbaclient@agence.com
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_9qe6aQa3aVMD8xDq6r0SOOnvZTIpNr0BfznUTN7k1j0
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: <h2>Liste des utilisateurs de l'Agence de Voyage</h2><table border='1' cellpadding='5'><tr><th>ID</th><th>Nom</th><th>Email</th><th>Rôle</th></tr><tr><td>1</td><td>Admin</td><td>admin@agence.com</td><td>admin</td></tr><tr><td>3</td><td>DJEUPISNE</td><td>oualoumidjeupisne@gmail.com</td><td>client</td></tr><tr><td>4</td><td>Daomi</td><td>bernard@gmail.com</td><td>client</td></tr><tr><td>5</td><td>Toumba</td><td>client@agence.com</td><td></td></tr></table>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_9qe6aQa3aVMD8xDq6r0SOOnvZTIpNr0BfznUTN7k1j0--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 OK  1746486666 5b1f17b1804b1-441b8a286cfsm146060995e9.29 - gsmtp
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-441b8a286cfsm146060995e9.29 - gsmtp
+
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3a099b1702dsm11562023f8f.88 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[1] CLIENT -> SERVER: MAIL FROM:<no-reply@agencevoyage.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-3a099b1702dsm11562023f8f.88 - gsmtp
+
+[1] CLIENT -> SERVER: RCPT TO:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-3a099b1702dsm11562023f8f.88 - gsmtp
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-3a099b1702dsm11562023f8f.88 - gsmtp
+
+[1] CLIENT -> SERVER: Date: Mon, 5 May 2025 23:49:35 +0000
+
+[1] CLIENT -> SERVER: To: oualoumidjeupisne@gmail.com
+
+[1] CLIENT -> SERVER: From: Agence de Voyage <no-reply@agencevoyage.com>
+
+[1] CLIENT -> SERVER: Subject: =?iso-8859-1?Q?R=C3=A9initialisation_de_votre_mot_de_passe_-_Agence_de_Voyage?=
+
+[1] CLIENT -> SERVER: Message-ID: <QOBKWCE9JsjqWHHC91VxndRg8MoadMGfXlZ0KtV6Kes@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_QOBKWCE9JsjqWHHC91VxndRg8MoadMGfXlZ0KtV6Kes"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_QOBKWCE9JsjqWHHC91VxndRg8MoadMGfXlZ0KtV6Kes
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Réinitialisation de mot de passe
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Bonjour,
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Vous avez demandé une réinitialisation de mot de passe pour votre compte sur Agence de Voyage.
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Cliquez sur le lien suivant pour réinitialiser votre mot de passe (valide 1 heure) :
+
+[1] CLIENT -> SERVER: http://localhost/agence_voyage/reset_password.php?token=31bd8eab9cdf9ca4c4d10c7ab75ea3175ca63da2fb5a925b056a1f3963b37d47
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Si vous n'avez pas fait cette demande, veuillez ignorer cet email.
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Cordialement,
+
+[1] CLIENT -> SERVER: L'équipe Agence de Voyage
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_QOBKWCE9JsjqWHHC91VxndRg8MoadMGfXlZ0KtV6Kes
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: <h2>Réinitialisation de mot de passe</h2>
+
+[1] CLIENT -> SERVER:                                        <p>Bonjour,</p>
+
+[1] CLIENT -> SERVER:                                        <p>Vous avez demandé une réinitialisation de mot de passe pour votre compte sur Agence de Voyage.</p>
+
+[1] CLIENT -> SERVER:                                        <p>Cliquez sur le lien suivant pour réinitialiser votre mot de passe (valide 1 heure) :</p>
+
+[1] CLIENT -> SERVER:                                        <p><a href='http://localhost/agence_voyage/reset_password.php?token=31bd8eab9cdf9ca4c4d10c7ab75ea3175ca63da2fb5a925b056a1f3963b37d47'>Réinitialiser mon mot de passe</a></p>
+
+[1] CLIENT -> SERVER:                                        <p>Si vous n'avez pas fait cette demande, veuillez ignorer cet email.</p>
+
+[1] CLIENT -> SERVER:                                        <p>Cordialement,<br>L'équipe Agence de Voyage</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_QOBKWCE9JsjqWHHC91VxndRg8MoadMGfXlZ0KtV6Kes--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 OK  1746488968 ffacd0b85a97d-3a099b1702dsm11562023f8f.88 - gsmtp
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-3a099b1702dsm11562023f8f.88 - gsmtp
+
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-441b89ed4f5sm150454325e9.18 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[1] CLIENT -> SERVER: MAIL FROM:<no-reply@agencevoyage.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-441b89ed4f5sm150454325e9.18 - gsmtp
+
+[1] CLIENT -> SERVER: RCPT TO:<vanessabatonon9@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-441b89ed4f5sm150454325e9.18 - gsmtp
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-441b89ed4f5sm150454325e9.18 - gsmtp
+
+[1] CLIENT -> SERVER: Date: Tue, 6 May 2025 00:37:52 +0000
+
+[1] CLIENT -> SERVER: To: vanessabatonon9@gmail.com
+
+[1] CLIENT -> SERVER: From: Agence de Voyage <no-reply@agencevoyage.com>
+
+[1] CLIENT -> SERVER: Subject: =?iso-8859-1?Q?R=C3=A9initialisation_de_votre_mot_de_passe_-_Agence_de_Voyage?=
+
+[1] CLIENT -> SERVER: Message-ID: <Re48CnjTAzMxMZf651mbv2wdh9WFyLbNpPtEW6nTA@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_Re48CnjTAzMxMZf651mbv2wdh9WFyLbNpPtEW6nTA"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_Re48CnjTAzMxMZf651mbv2wdh9WFyLbNpPtEW6nTA
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Réinitialisation de mot de passe
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Bonjour,
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Vous avez demandé une réinitialisation de mot de passe pour votre compte sur Agence de Voyage.
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Cliquez sur le lien suivant pour réinitialiser votre mot de passe (valide 1 heure) :
+
+[1] CLIENT -> SERVER: http://localhost/agence_voyage/reset_password.php?token=fcc26e165e52a2c2bff50590a1b58006f704df33e155cb0769ddc38e1482c6bb
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Si vous n'avez pas fait cette demande, veuillez ignorer cet email.
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Cordialement,
+
+[1] CLIENT -> SERVER: L'équipe Agence de Voyage
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_Re48CnjTAzMxMZf651mbv2wdh9WFyLbNpPtEW6nTA
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: <h2>Réinitialisation de mot de passe</h2>
+
+[1] CLIENT -> SERVER:                                        <p>Bonjour,</p>
+
+[1] CLIENT -> SERVER:                                        <p>Vous avez demandé une réinitialisation de mot de passe pour votre compte sur Agence de Voyage.</p>
+
+[1] CLIENT -> SERVER:                                        <p>Cliquez sur le lien suivant pour réinitialiser votre mot de passe (valide 1 heure) :</p>
+
+[1] CLIENT -> SERVER:                                        <p><a href='http://localhost/agence_voyage/reset_password.php?token=fcc26e165e52a2c2bff50590a1b58006f704df33e155cb0769ddc38e1482c6bb'>Réinitialiser mon mot de passe</a></p>
+
+[1] CLIENT -> SERVER:                                        <p>Si vous n'avez pas fait cette demande, veuillez ignorer cet email.</p>
+
+[1] CLIENT -> SERVER:                                        <p>Cordialement,<br>L'équipe Agence de Voyage</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_Re48CnjTAzMxMZf651mbv2wdh9WFyLbNpPtEW6nTA--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 OK  1746491864 5b1f17b1804b1-441b89ed4f5sm150454325e9.18 - gsmtp
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-441b89ed4f5sm150454325e9.18 - gsmtp
+
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3a099b0ff8esm11971535f8f.79 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[1] CLIENT -> SERVER: MAIL FROM:<no-reply@agencevoyage.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-3a099b0ff8esm11971535f8f.79 - gsmtp
+
+[1] CLIENT -> SERVER: RCPT TO:<vanessabatonon9@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-3a099b0ff8esm11971535f8f.79 - gsmtp
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-3a099b0ff8esm11971535f8f.79 - gsmtp
+
+[1] CLIENT -> SERVER: Date: Tue, 6 May 2025 01:07:26 +0000
+
+[1] CLIENT -> SERVER: To: vanessabatonon9@gmail.com
+
+[1] CLIENT -> SERVER: From: Agence de Voyage <no-reply@agencevoyage.com>
+
+[1] CLIENT -> SERVER: Subject: =?iso-8859-1?Q?R=C3=A9initialisation_de_votre_mot_de_passe_-_Agence_de_Voyage?=
+
+[1] CLIENT -> SERVER: Message-ID: <sG0c4T21OBvQzWFApV9gKlSddOVaoSVajVNxuHX17o@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_sG0c4T21OBvQzWFApV9gKlSddOVaoSVajVNxuHX17o"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_sG0c4T21OBvQzWFApV9gKlSddOVaoSVajVNxuHX17o
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Réinitialisation de mot de passe
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Bonjour,
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Vous avez demandé une réinitialisation de mot de passe pour votre compte sur Agence de Voyage.
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Cliquez sur le lien suivant pour réinitialiser votre mot de passe (valide 1 heure) :
+
+[1] CLIENT -> SERVER: http://localhost/agence_voyage/reset_password.php?token=c5b48438e3623af66edb41815cc7f60729a59be89b16a723475e5c4410665199
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Si vous n'avez pas fait cette demande, veuillez ignorer cet email.
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Cordialement,
+
+[1] CLIENT -> SERVER: L'équipe Agence de Voyage
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_sG0c4T21OBvQzWFApV9gKlSddOVaoSVajVNxuHX17o
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: <h2>Réinitialisation de mot de passe</h2>
+
+[1] CLIENT -> SERVER:                                        <p>Bonjour,</p>
+
+[1] CLIENT -> SERVER:                                        <p>Vous avez demandé une réinitialisation de mot de passe pour votre compte sur Agence de Voyage.</p>
+
+[1] CLIENT -> SERVER:                                        <p>Cliquez sur le lien suivant pour réinitialiser votre mot de passe (valide 1 heure) :</p>
+
+[1] CLIENT -> SERVER:                                        <p><a href='http://localhost/agence_voyage/reset_password.php?token=c5b48438e3623af66edb41815cc7f60729a59be89b16a723475e5c4410665199'>Réinitialiser mon mot de passe</a></p>
+
+[1] CLIENT -> SERVER:                                        <p>Si vous n'avez pas fait cette demande, veuillez ignorer cet email.</p>
+
+[1] CLIENT -> SERVER:                                        <p>Cordialement,<br>L'équipe Agence de Voyage</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_sG0c4T21OBvQzWFApV9gKlSddOVaoSVajVNxuHX17o--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 OK  1746493639 ffacd0b85a97d-3a099b0ff8esm11971535f8f.79 - gsmtp
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-3a099b0ff8esm11971535f8f.79 - gsmtp
+
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3a099b0f14esm12119264f8f.64 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[1] CLIENT -> SERVER: MAIL FROM:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-3a099b0f14esm12119264f8f.64 - gsmtp
+
+[1] CLIENT -> SERVER: RCPT TO:<vanessabatonon9@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-3a099b0f14esm12119264f8f.64 - gsmtp
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-3a099b0f14esm12119264f8f.64 - gsmtp
+
+[1] CLIENT -> SERVER: Date: Tue, 6 May 2025 01:16:28 +0000
+
+[1] CLIENT -> SERVER: To: vanessabatonon9@gmail.com
+
+[1] CLIENT -> SERVER: From: Agence de Voyage <oualoumidjeupisne@gmail.com>
+
+[1] CLIENT -> SERVER: Subject: =?iso-8859-1?Q?R=C3=A9initialisation_de_votre_mot_de_passe_-_Agence_de_Voyage?=
+
+[1] CLIENT -> SERVER: Message-ID: <SAS917XimhpieEEF2QKzK4AFKx0X2HhaVWlKEoWTg@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_SAS917XimhpieEEF2QKzK4AFKx0X2HhaVWlKEoWTg"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_SAS917XimhpieEEF2QKzK4AFKx0X2HhaVWlKEoWTg
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Réinitialisation de mot de passe
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Bonjour,
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Vous avez demandé une réinitialisation de mot de passe pour votre compte sur Agence de Voyage.
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Cliquez sur le lien suivant pour réinitialiser votre mot de passe (valide 1 heure) :
+
+[1] CLIENT -> SERVER: http://localhost/agence_voyage/reset_password.php?token=d13767bd5e9c31a1ef24da6447147257ac2ce732d6167b92b04af511700f8c26
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Si vous n'avez pas fait cette demande, veuillez ignorer cet email.
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Cordialement,
+
+[1] CLIENT -> SERVER: L'équipe Agence de Voyage
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_SAS917XimhpieEEF2QKzK4AFKx0X2HhaVWlKEoWTg
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: <h2>Réinitialisation de mot de passe</h2>
+
+[1] CLIENT -> SERVER:                                            <p>Bonjour,</p>
+
+[1] CLIENT -> SERVER:                                            <p>Vous avez demandé une réinitialisation de mot de passe pour votre compte sur Agence de Voyage.</p>
+
+[1] CLIENT -> SERVER:                                            <p>Cliquez sur le lien suivant pour réinitialiser votre mot de passe (valide 1 heure) :</p>
+
+[1] CLIENT -> SERVER:                                            <p><a href='http://localhost/agence_voyage/reset_password.php?token=d13767bd5e9c31a1ef24da6447147257ac2ce732d6167b92b04af511700f8c26'>Réinitialiser mon mot de passe</a></p>
+
+[1] CLIENT -> SERVER:                                            <p>Si vous n'avez pas fait cette demande, veuillez ignorer cet email.</p>
+
+[1] CLIENT -> SERVER:                                            <p>Cordialement,<br>L'équipe Agence de Voyage</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_SAS917XimhpieEEF2QKzK4AFKx0X2HhaVWlKEoWTg--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 OK  1746494181 ffacd0b85a97d-3a099b0f14esm12119264f8f.64 - gsmtp
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-3a099b0f14esm12119264f8f.64 - gsmtp
+
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-441b89ed4d4sm148549995e9.19 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[1] CLIENT -> SERVER: MAIL FROM:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-441b89ed4d4sm148549995e9.19 - gsmtp
+
+[1] CLIENT -> SERVER: RCPT TO:<vanessabatonon9@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-441b89ed4d4sm148549995e9.19 - gsmtp
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-441b89ed4d4sm148549995e9.19 - gsmtp
+
+[1] CLIENT -> SERVER: Date: Tue, 6 May 2025 02:04:32 +0000
+
+[1] CLIENT -> SERVER: To: vanessabatonon9@gmail.com
+
+[1] CLIENT -> SERVER: From: Agence de Voyage <oualoumidjeupisne@gmail.com>
+
+[1] CLIENT -> SERVER: Subject: =?iso-8859-1?Q?R=C3=A9initialisation_de_votre_mot_de_passe_-_Agence_de_Voyage?=
+
+[1] CLIENT -> SERVER: Message-ID: <H57fxRd4YDQFWtZhBcjkOqCpanSNX7QCu8stB8JFA0@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_H57fxRd4YDQFWtZhBcjkOqCpanSNX7QCu8stB8JFA0"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_H57fxRd4YDQFWtZhBcjkOqCpanSNX7QCu8stB8JFA0
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Réinitialisation de mot de passe
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Bonjour,
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Vous avez demandé une réinitialisation de mot de passe pour votre compte sur Agence de Voyage.
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Cliquez sur le lien suivant pour réinitialiser votre mot de passe (valide 1 heure) :
+
+[1] CLIENT -> SERVER: http://localhost/agence_voyage/reset_password.php?token=bb3ecdcebd2f5c0c5005435dd91fd5ffb9d750af195afad9fdc882033981cf6f
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Si vous n'avez pas fait cette demande, veuillez ignorer cet email.
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Cordialement,
+
+[1] CLIENT -> SERVER: L'équipe Agence de Voyage
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_H57fxRd4YDQFWtZhBcjkOqCpanSNX7QCu8stB8JFA0
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: <h2>Réinitialisation de mot de passe</h2>
+
+[1] CLIENT -> SERVER:                                            <p>Bonjour,</p>
+
+[1] CLIENT -> SERVER:                                            <p>Vous avez demandé une réinitialisation de mot de passe pour votre compte sur Agence de Voyage.</p>
+
+[1] CLIENT -> SERVER:                                            <p>Cliquez sur le lien suivant pour réinitialiser votre mot de passe (valide 1 heure) :</p>
+
+[1] CLIENT -> SERVER:                                            <p><a href='http://localhost/agence_voyage/reset_password.php?token=bb3ecdcebd2f5c0c5005435dd91fd5ffb9d750af195afad9fdc882033981cf6f'>Réinitialiser mon mot de passe</a></p>
+
+[1] CLIENT -> SERVER:                                            <p>Si vous n'avez pas fait cette demande, veuillez ignorer cet email.</p>
+
+[1] CLIENT -> SERVER:                                            <p>Cordialement,<br>L'équipe Agence de Voyage</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_H57fxRd4YDQFWtZhBcjkOqCpanSNX7QCu8stB8JFA0--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 OK  1746497063 5b1f17b1804b1-441b89ed4d4sm148549995e9.19 - gsmtp
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-441b89ed4d4sm148549995e9.19 - gsmtp
+
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-441b8a285c2sm150019815e9.32 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[1] CLIENT -> SERVER: MAIL FROM:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-441b8a285c2sm150019815e9.32 - gsmtp
+
+[1] CLIENT -> SERVER: RCPT TO:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-441b8a285c2sm150019815e9.32 - gsmtp
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-441b8a285c2sm150019815e9.32 - gsmtp
+
+[1] CLIENT -> SERVER: Date: Tue, 6 May 2025 02:04:55 +0000
+
+[1] CLIENT -> SERVER: To: oualoumidjeupisne@gmail.com
+
+[1] CLIENT -> SERVER: From: Agence de Voyage <oualoumidjeupisne@gmail.com>
+
+[1] CLIENT -> SERVER: Subject: =?iso-8859-1?Q?R=C3=A9initialisation_de_votre_mot_de_passe_-_Agence_de_Voyage?=
+
+[1] CLIENT -> SERVER: Message-ID: <l8Ud0GEXJYUTsc8A7mjj3e2HyTrJPwhuUw5j713lMY@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_l8Ud0GEXJYUTsc8A7mjj3e2HyTrJPwhuUw5j713lMY"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_l8Ud0GEXJYUTsc8A7mjj3e2HyTrJPwhuUw5j713lMY
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Réinitialisation de mot de passe
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Bonjour,
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Vous avez demandé une réinitialisation de mot de passe pour votre compte sur Agence de Voyage.
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Cliquez sur le lien suivant pour réinitialiser votre mot de passe (valide 1 heure) :
+
+[1] CLIENT -> SERVER: http://localhost/agence_voyage/reset_password.php?token=517d254523cfd9924b4d488b96d7ddfd67d80973436efae43da86055eaa3ef2f
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Si vous n'avez pas fait cette demande, veuillez ignorer cet email.
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Cordialement,
+
+[1] CLIENT -> SERVER: L'équipe Agence de Voyage
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_l8Ud0GEXJYUTsc8A7mjj3e2HyTrJPwhuUw5j713lMY
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: <h2>Réinitialisation de mot de passe</h2>
+
+[1] CLIENT -> SERVER:                                            <p>Bonjour,</p>
+
+[1] CLIENT -> SERVER:                                            <p>Vous avez demandé une réinitialisation de mot de passe pour votre compte sur Agence de Voyage.</p>
+
+[1] CLIENT -> SERVER:                                            <p>Cliquez sur le lien suivant pour réinitialiser votre mot de passe (valide 1 heure) :</p>
+
+[1] CLIENT -> SERVER:                                            <p><a href='http://localhost/agence_voyage/reset_password.php?token=517d254523cfd9924b4d488b96d7ddfd67d80973436efae43da86055eaa3ef2f'>Réinitialiser mon mot de passe</a></p>
+
+[1] CLIENT -> SERVER:                                            <p>Si vous n'avez pas fait cette demande, veuillez ignorer cet email.</p>
+
+[1] CLIENT -> SERVER:                                            <p>Cordialement,<br>L'équipe Agence de Voyage</p>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_l8Ud0GEXJYUTsc8A7mjj3e2HyTrJPwhuUw5j713lMY--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 OK  1746497093 5b1f17b1804b1-441b8a285c2sm150019815e9.32 - gsmtp
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-441b8a285c2sm150019815e9.32 - gsmtp
+
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3b5e8bd1a2bsm8991212f8f.14 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 36700160
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.64.166.62]
+250-SIZE 36700160
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[1] CLIENT -> SERVER: MAIL FROM:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-3b5e8bd1a2bsm8991212f8f.14 - gsmtp
+
+[1] CLIENT -> SERVER: RCPT TO:<oualoumidjeupisne@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-3b5e8bd1a2bsm8991212f8f.14 - gsmtp
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-3b5e8bd1a2bsm8991212f8f.14 - gsmtp
+
+[1] CLIENT -> SERVER: Date: Sun, 13 Jul 2025 04:45:07 +0000
+
+[1] CLIENT -> SERVER: To: oualoumidjeupisne@gmail.com
+
+[1] CLIENT -> SERVER: From: Agence de Voyage <oualoumidjeupisne@gmail.com>
+
+[1] CLIENT -> SERVER: Subject: Liste des utilisateurs - Agence de Voyage
+
+[1] CLIENT -> SERVER: Message-ID: <FJaaIk0mtHsZxhI9nKLbFYNNEnr4ayGi4jNdpPb0Ds@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_FJaaIk0mtHsZxhI9nKLbFYNNEnr4ayGi4jNdpPb0Ds"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_FJaaIk0mtHsZxhI9nKLbFYNNEnr4ayGi4jNdpPb0Ds
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Liste des utilisateurs de l'Agence de VoyageIDNomEmailRôle1Adminadmin@agence.comadmin3DJEUPISNEoualoumidjeupisne@gmail.comclient4Daomibernard@gmail.comclient5Toumbaclient@agence.com6BATONONvanessabatonon9@gmail.com7noumatekponoumatekpoyawo@gmail.com8GASTONgaston@gmail.com
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_FJaaIk0mtHsZxhI9nKLbFYNNEnr4ayGi4jNdpPb0Ds
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: <h2>Liste des utilisateurs de l'Agence de Voyage</h2><table border='1' cellpadding='5'><tr><th>ID</th><th>Nom</th><th>Email</th><th>Rôle</th></tr><tr><td>1</td><td>Admin</td><td>admin@agence.com</td><td>admin</td></tr><tr><td>3</td><td>DJEUPISNE</td><td>oualoumidjeupisne@gmail.com</td><td>client</td></tr><tr><td>4</td><td>Daomi</td><td>bernard@gmail.com</td><td>client</td></tr><tr><td>5</td><td>Toumba</td><td>client@agence.com</td><td></td></tr><tr><td>6</td><td>BATONON</td><td>vanessabatonon9@gmail.com</td><td></td></tr><tr><td>7</td><td>noumatekpo</td><td>noumatekpoyawo@gmail.com</td><td></td></tr><tr><td>8</td><td>GASTON</td><td>gaston@gmail.com</td><td></td></tr></table>
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_FJaaIk0mtHsZxhI9nKLbFYNNEnr4ayGi4jNdpPb0Ds--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 OK  1752381886 ffacd0b85a97d-3b5e8bd1a2bsm8991212f8f.14 - gsmtp
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-3b5e8bd1a2bsm8991212f8f.14 - gsmtp
+

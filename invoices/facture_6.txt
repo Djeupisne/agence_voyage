@@ -1,0 +1,8 @@
+Facture pour la réservation ID: 6
+Client: DJEUPISNE
+Destination: New York
+Type de Billet: Premium
+Nombre de Places: 7
+Date de Voyage: 2025-05-29
+Montant: 4199.93 EUR
+Généré le: 2025-05-01 18:51:20
